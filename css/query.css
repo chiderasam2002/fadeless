@@ -70,6 +70,10 @@
             display: block;
             
         }
+
+       form{
+          width: 100%;
+       } 
 }
     
 
