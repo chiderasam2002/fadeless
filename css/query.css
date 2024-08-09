@@ -26,7 +26,7 @@
             width: 280px;
             height: 100vh;
             background-color: #fefefe00;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(60px);
             transition: 0.5s;
             box-shadow: 2px 0 20px 0 rgba(0, 0, 0, 0.5);
                   
@@ -85,6 +85,13 @@
 .sample{
 
     padding: auto;
+}
+
+.sample .image img{
+    width: 80px;
+    border-radius: 180px;
+    height: 80px;
+
 }
 
 
