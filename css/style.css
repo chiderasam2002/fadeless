@@ -255,3 +255,29 @@ a{
 
 
 /* hero section starts here */
+
+
+
+/* sample ssection starts here */
+
+.sample{
+
+    columns: 3;
+    margin: 10px auto;
+}
+
+.sample .image{
+display: block;
+text-align: center;
+}
+
+
+
+.sample .image img{
+    width: 100px;
+    border-radius: 200px;
+    height: 100px;
+
+}
+
+/* sample seection ends here */
