@@ -289,7 +289,6 @@ a{
 
 /* product section start here */
 
-
 .products .feature p{
     font-size: 40px;
     font-family: cursive;
@@ -306,13 +305,14 @@ a{
     grid-template-columns: 150px 150px 150px 150px;
     margin: 50px auto 50x;
     justify-content: center;
-  
-    
+    font-size: 13px;
+    padding-top: 50px;
 }
 
 .products .display .pro1{
  text-align: justify;
- /* border-bottom: #fefefe 2px solid; */
+ margin: 5px 0;
+
 }
 
 .products .display .pro1 img{
@@ -330,6 +330,9 @@ a{
     margin: 5px auto;
     color: #fefefe;
  }
+
+
+  
  
 
 

@@ -105,7 +105,19 @@
 .products .display .pro1 img{
     
  }
- 
+ .products .display{
+    grid-template-columns: 150px 150px;
+   
+}
 
+.products .display .pro1{
+    
+}
+
+.products .display .pro1 img{
+    width:50px;
+ }
+ 
+ 
 
 }
