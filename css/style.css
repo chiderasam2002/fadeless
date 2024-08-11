@@ -266,13 +266,14 @@ a{
     margin: 10px auto;
     text-align: justify;
     justify-content: center;
-    
+
 }
 
 .sample .image{
-  /* margin: 5px 8px 30px; */
+   margin: 5px 8px 30px; 
   display: block;
   text-align: center;
+
 }
 
 
@@ -285,3 +286,58 @@ a{
 }
 
 /* sample seection ends here */
+
+/* product section start here */
+
+
+.products .feature p{
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: 300;
+    text-align: center;
+    border-bottom: 2px #fefefe solid;
+
+}
+
+/* product section ends here */
+
+.products .display{
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    margin: 50px auto 50x;
+    justify-content: center;
+  
+    
+}
+
+.products .display .pro1{
+ text-align: justify;
+ /* border-bottom: #fefefe 2px solid; */
+}
+
+.products .display .pro1 img{
+   width:100px;
+}
+
+
+
+.products .display .pro1 .p2{
+   margin: 5px auto;
+   color: #fefefe;
+}
+
+.products .display .pro1 .p1{
+    margin: 5px auto;
+    color: #fefefe;
+ }
+ 
+
+
+
+
+
+
+
+
+
+/* product stion stass here */
