@@ -183,7 +183,8 @@ a{
 
 .sample{
     width: 80%;
-    columns: 3;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
     margin: 100px auto 30px;
     text-align: justify;
     justify-content: center;
