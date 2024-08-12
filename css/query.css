@@ -1,4 +1,4 @@
-@media (max-width:1024px){
+@media (max-width:1366px){
 
     *{
         padding: 0;
@@ -88,9 +88,157 @@
 }
 
 .sample .image img{
-    width: 80px;
+    /* width: 80%;
     border-radius: 180px;
-    height: 80px;
+    height: 80px; */
+
+}
+
+.sample{
+    font-size:15px ;
+}
+
+.products .feature p{
+    font-size: 30px;
+    font-weight: 30;
+}
+
+.products .display .pro1{
+  font-size: 15px;
+  
+ 
+}
+
+
+ .products .display{
+     grid-template-columns: 150px 150px auto;
+  
+ }
+
+
+
+.products .display .pro1 img{
+    width:70px;
+ }
+ 
+ 
+
+}
+
+
+
+/* @media (max-width:1024px) and (min-width:768px){
+    .products .feature p{
+        font-size: 50px;
+        font-weight: 30;
+    }
+} */
+
+
+
+
+
+
+
+@media (max-width:932px){
+
+    *{
+        padding: 0;
+    }
+        .top-header{
+           display: none;
+        }
+       
+        
+   
+        .header-nav{
+            width: 80%;
+            padding: 0 20px;
+        }
+
+        nav li a{
+            
+        }
+    
+        nav{
+            position:fixed;
+            left: -300px; 
+            top: 0;
+            z-index: 999;
+            width: 280px;
+            height: 100vh;
+            background-color: #fefefe00;
+            backdrop-filter: blur(60px);
+            transition: 0.5s;
+            box-shadow: 2px 0 20px 0 rgba(0, 0, 0, 0.5);
+                  
+          }
+    
+    
+        #nav_check:checked ~  nav{
+             left: 0; 
+            
+        }
+    
+        .header-nav nav .logo{
+            display: block;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            margin-left: 30px;
+        }
+    
+        .header-nav nav ul li a{
+            margin-bottom: 5px;
+            padding: 10px 15px;
+            border-radius: 50px;
+            color:rebeccapurple;
+            display: flex;
+            
+        }
+
+         .header-nav nav ul li  a.active{
+            background-color:white;
+        } 
+
+        .header-nav nav ul li a:hover{
+        
+        }
+        
+    
+        .header-nav nav ul{
+            display: block;
+            padding: 10px;
+        }
+    
+    
+        .hamburger{
+            display: block;
+            
+        }
+
+        .hero{
+            width: 100%;
+            background-repeat: no-repeat;
+            height: 170x;
+}
+
+
+.sample{
+
+    padding: auto;
+}
+
+
+.products .feature p{
+    font-size: 17px;
+    font-weight: 30;
+}
+
+.sample .image img{
+    width: 60px;
+    border-radius: 160px;
+    height: 60px;
 
 }
 
@@ -99,20 +247,19 @@
 }
 
 .products .display .pro1{
-  font-size: 15px;
+  font-size: 10px;
+ 
+  
+ 
 }
 
-.products .display .pro1 img{
-    
- }
+
  .products .display{
-    grid-template-columns: 150px 150px;
-   
-}
+    grid-template-columns: 150px auto;
+  
+ }
 
-.products .display .pro1{
-    
-}
+
 
 .products .display .pro1 img{
     width:50px;
