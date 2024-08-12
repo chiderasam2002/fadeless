@@ -8,7 +8,7 @@ body{
     font: 20px/1.5 Arial, Helve tica, san serif;
     padding: 0;
     margin: 0;
-    background-color:rgb(109, 109, 133);
+    background-color:rgb(241, 241, 250);
 
 }
 
@@ -40,6 +40,8 @@ header{
    padding: 6px;
    border-radius: 6px; 
 } 
+
+
 
 
 a{
@@ -125,99 +127,18 @@ a{
     background-color: #212526;
 }
 
-/* form styling  starts here*/
+/* welcome  styling  starts here*/
 
-.newsletter{
-     /* margin:20vh auto 0 auto;  */
-    
-} 
-
-/* #form {
-    width: 300px;
-    margin: 20vh auto 0 auto;
-    padding: 50px;
-    background-color:rgb(142, 142, 158);
-    border-radius: 4px;
-    font-size: 12px;
-}
-
-#form h1 {
-    color: #0f2027;
+.intro .welcome {
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 300;
     text-align: center;
+    border-bottom: 3px #fefefe solid;
+    padding:40px ;
 }
 
-#form button {
-    padding: 10px;
-    margin-top: 10px;
-    width: 100%;
-    color: white;
-    background-color: rgb(154, 156, 167);
-    border: none;
-    border-radius: 4px;
-} 
-
-#form button a{
-    
-        padding: 10px;
-        margin-top: 10px;
-        width: 100%;
-        color: white;
-        border: none;
-        border-radius: 4px;
-        
-        
-}
-
-#form button a:hover{
-    cursor: pointer;
-    background-color: #27424e;
-    
-}
-
- #form button:hover{
-    cursor: pointer;
-    background-color: #27424e;
-} 
-
-.input-control {
-    display: flex;
-    flex-direction: column;
-    
-}
-
-.input-control p{
-    color: #0f2027;
-}
-
-.input-control input {
-    border: 2px solid #f0f0f0;
-	border-radius: 4px;
-	display: block;
-	font-size: 12px;
-	padding: 10px;
-	
-   
-}
-
-.input-control input:focus {
-    outline: 0;
-}
-
-.input-control.success input {
-    border-color: #09c372;
-}
-
-.input-control.error input {
-    border-color: #ff3860;
-}
-
-.input-control .error {
-    color: #ff3860;
-    font-size: 9px;
-    height: 13px;
-} */
-
-/* form styling end here */
+/* welcome styling end here */
 
 .hero{
     
@@ -263,7 +184,7 @@ a{
 .sample{
     width: 80%;
     columns: 3;
-    margin: 10px auto;
+    margin: 100px auto 30px;
     text-align: justify;
     justify-content: center;
 
@@ -287,18 +208,18 @@ a{
 
 /* sample seection ends here */
 
-/* product section start here */
+
 
 .products .feature p{
-    font-size: 40px;
+    font-size: 30px;
     font-family: cursive;
     font-weight: 300;
     text-align: center;
-    border-bottom: 2px #fefefe solid;
+    border-bottom: 3px #fefefe solid;
 
 }
 
-/* product section ends here */
+/* product section starts here */
 
 .products .display{
     display: grid;
@@ -307,6 +228,7 @@ a{
     justify-content: center;
     font-size: 13px;
     padding-top: 50px;
+    border-bottom:5px #fefefe solid ;
 }
 
 .products .display .pro1{
@@ -323,17 +245,15 @@ a{
 
 .products .display .pro1 .p2{
    margin: 5px auto;
-   color: #fefefe;
 }
 
 .products .display .pro1 .p1{
     margin: 5px auto;
-    color: #fefefe;
  }
 
 
   
- 
+ /* product section start here */
 
 
 
@@ -343,4 +263,30 @@ a{
 
 
 
-/* product stion stass here */
+/* footer stass here */
+
+footer .social{ 
+    display: none;
+    align-items: center;
+    padding: 0 30px;
+    justify-content:space-around;
+    height: 40px;
+    color: #fefefe;
+    background-color: black;
+}
+
+
+footer .social i:hover{
+    cursor: pointer;
+   color: black;
+   background-color: #fefefe;
+   padding: 6px;
+   border-radius: 6px; 
+} 
+
+
+footer .power p{
+    color: #fefefe;
+    text-align: center;
+    background-color: black;
+}
