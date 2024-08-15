@@ -181,20 +181,21 @@ a{
 
 /* sample ssection starts here */
 
-.sample{
+ .sample{
     width: 80%;
+    padding: auto;
     display: grid;
-    grid-template-columns: 100px 100px 100px;
+    grid-template-columns: 400px 400px 400px;
     margin: 100px auto 30px;
     text-align: justify;
     justify-content: center;
 
-}
+} 
 
 .sample .image{
-   margin: 5px 8px 30px; 
+  margin: 10px auto 30px;  
   display: block;
-  text-align: center;
+  text-align: center; 
 
 }
 
@@ -224,8 +225,8 @@ a{
 
 .products .display{
     display: grid;
-    grid-template-columns: 150px 150px 150px 150px;
-    margin: 50px auto 50x;
+    grid-template-columns: 400px 400px 400px 400px;
+    margin:  auto ;
     justify-content: center;
     font-size: 13px;
     padding-top: 50px;
@@ -234,12 +235,13 @@ a{
 
 .products .display .pro1{
  text-align: justify;
- margin: 5px 0;
-
+ margin:50px;
+ 
 }
 
 .products .display .pro1 img{
-   width:100px;
+   width:100%;
+   height: 50vh;
 }
 
 
