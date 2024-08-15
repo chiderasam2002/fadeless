@@ -586,8 +586,9 @@ footer .power p{
 
 
 .sample{
-    grid-template-columns: 130px 130px 130px;
+    grid-template-columns: 110px 110px 110px;
     padding: auto;
+    
 }
 
 
@@ -604,7 +605,7 @@ footer .power p{
 }
 
 .sample{
-    font-size:15px ;
+    font-size:13px ;
     text-align: center;
 }
 
