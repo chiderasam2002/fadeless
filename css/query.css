@@ -75,9 +75,9 @@
             
         }
 
-        .intro .welcome {
-            font-size: 20px;
-            font-weight: 30;
+        .intro .welcome p{
+            font-size: 30px;
+            font-weight: bold;
         
         }
 
@@ -171,7 +171,7 @@ footer .power p{
 
 
 
-@media (max-width:1194px){
+@media (max-width:1194px) and (min-width:834px){
    
 
         *{
@@ -250,7 +250,7 @@ footer .power p{
             }
     
             .intro .welcome {
-                font-size: 20px;
+                font-size: 30px;
                 font-weight: 30;
             
             }
@@ -326,6 +326,55 @@ footer .power p{
         justify-content: center;
     
     }
+
+
+    .contact .social{
+        text-align: center;
+        margin: 50px;
+        display: grid;
+        grid-template-columns: 400px 400px;
+        justify-content: center;
+       } 
+       
+       
+       .contact .social .icon{
+         background-color: #fefefe;
+         margin: 40px;
+         border-radius: 16px;
+         padding: 10px;
+       }
+       
+       .contact .social i{
+          background-color: #f4f4f4; 
+          padding: 20px;
+          border-radius: 50px;
+          margin: 15px 0 10px;
+       }
+       
+
+       .contact .social{
+        text-align: center;
+        margin: 50px;
+        display: grid;
+        grid-template-columns: 400px 400px;
+        justify-content: center;
+       } 
+       
+       
+       .contact .social .icon{
+         background-color: #fefefe;
+         margin: 20px;
+         border-radius: 16px;
+         padding: 10px;
+       }
+       
+       .contact .social i{
+          background-color: #f4f4f4; 
+          padding: 20px;
+          border-radius: 50px;
+          margin: 15px 0 10px;
+       }
+       
     
     
      footer .social{ 
@@ -440,9 +489,9 @@ footer .power p{
                 
             }
     
-            .intro .welcome {
-                font-size: 20px;
-                font-weight: 30;
+            .intro .welcome p{
+                font-size: 25px;
+                font-weight: lighter;
             
             }
     
@@ -454,7 +503,7 @@ footer .power p{
     
     
     .sample{
-         padding: auto;
+        padding: auto;
         grid-template-columns: 300px 300px 300px;
     }
     
@@ -465,18 +514,19 @@ footer .power p{
     
     }
     
-    .sample{
-        font-size:25px ;
+    .sample p{
+        font-size:18px ;
+        font-weight: bold;
     }
     
     .products .feature p{
         font-size: 25px;
-        font-weight: 30;
+        font-weight: bold;
     }
     
     .products .display .pro1{
-      font-size: 15px;
-      
+      font-size: 20px;
+      font-weight: bold;
      
     }
     
@@ -484,8 +534,6 @@ footer .power p{
      .products .display{
          grid-template-columns: 400px 400px;
          
-         
-      
      }
     
     
@@ -497,7 +545,7 @@ footer .power p{
 
 
 
-     /* .days{
+     .days{
         width: 100%;
         margin:20px auto ;
         display: grid;
@@ -506,7 +554,7 @@ footer .power p{
         gap: 50px;
         justify-content: center;
     
-    } */
+    } 
     
     
      footer .social{ 
@@ -546,7 +594,7 @@ footer .power p{
 
 
 
-@media (max-width:932px){
+@media (max-width:932px) and (min-width:430px){
 
     *{
         padding: 0;
@@ -624,8 +672,8 @@ footer .power p{
         }
 
         .intro .welcome {
-            font-size: 20px;
-            font-weight: 30;
+            font-size: 25px;
+            
            
         }
 
@@ -645,7 +693,7 @@ footer .power p{
 
 .products .feature p{
     font-size: 17px;
-    font-weight: 30;
+    font-weight: bold;
 }
 
 .sample .image img{
@@ -655,15 +703,15 @@ footer .power p{
 
 }
 
-.sample{
-    font-size:13px ;
+.sample p{
+    font-size:15px ;
+   
     text-align: center;
 }
 
 .products .display .pro1{
-  font-size: 13px;
+  font-size: 15px;
   margin: 50px;
-  
  
 }
 
@@ -681,6 +729,44 @@ footer .power p{
     height: 40vh;
     
  }
+
+
+
+
+
+
+
+
+ .contact .social{
+    text-align: center;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    justify-content: center;
+   } 
+   
+   
+   .contact .social .icon{
+     background-color: #fefefe;
+     margin: 5px;
+     border-radius: 16px;
+     padding: 5px;
+     font-size: medium;
+   }
+   
+   .contact .social i{
+      background-color: #f4f4f4; 
+      padding: 20px;
+      border-radius: 50px;
+      margin: 15px 0 10px;
+   }
+   
+
+
+
+
+
+
  
  footer .social{ 
     display: flex;

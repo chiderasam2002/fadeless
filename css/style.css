@@ -47,7 +47,7 @@ header{
 a{
     text-decoration: none;
     text-transform: capitalize;
-
+     font-weight: bold;
 }
 
 .header-nav nav .logo{
@@ -130,14 +130,15 @@ a{
 /* welcome  styling  starts here*/
 
 .intro .welcome {
-    font-size: 30px;
     font-family: cursive;
-    font-weight: 300;
     text-align: center;
     border-bottom: 3px #fefefe solid;
     padding:40px ;
 }
 
+.intro .welcome p{
+    font-size: 30px;
+}
 /* welcome styling end here */
 
 .hero{
@@ -273,6 +274,7 @@ a{
   padding-bottom: 10px;
   width: 50%;
   margin: auto;
+  font-weight:bold;
 }
 .about1, .about2 {
     
@@ -297,6 +299,7 @@ a{
 #p1{
     text-align:center;
     font-size: larger;
+    font-weight: bold;
     padding-bottom: 40px;
 }
 
@@ -311,13 +314,36 @@ a{
     grid-template-columns: 200px auto;
     text-align: justify;
     gap: 50px;
-    
+    font-weight: bold;
 
 }
 
-.days p{
 
+/* contact section starts */
+
+.contact .social{
+ text-align: center;
+ margin: 50px;
+ display: grid;
+ grid-template-columns: 400px 400px;
+ justify-content: center;
+} 
+
+
+.contact .social .icon{
+  background-color: #fefefe;
+  margin: 40px;
+  border-radius: 16px;
+  padding: 10px;
 }
+
+.contact .social i{
+   background-color: #f4f4f4; 
+   padding: 20px;
+   border-radius: 50px;
+   margin: 15px 0 10px;
+}
+
 
 
 
