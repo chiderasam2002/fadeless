@@ -171,7 +171,7 @@ footer .power p{
 
 
 
-@media (max-width:1194px) and (min-width:834px){
+@media (max-width:1194px){
    
 
         *{
@@ -412,7 +412,7 @@ footer .power p{
 
 
 
-    @media (max-width:1024px){
+    @media (max-width:1024px) and (min-width:834){
 
         *{
             padding: 0;
@@ -594,7 +594,7 @@ footer .power p{
 
 
 
-@media (max-width:932px) and (min-width:430px){
+@media (max-width:932px){
 
     *{
         padding: 0;
@@ -741,14 +741,14 @@ footer .power p{
     text-align: center;
     margin: 50px;
     display: grid;
-    grid-template-columns: 200px 200px;
+    grid-template-columns: 180px 180px;
     justify-content: center;
    } 
    
    
    .contact .social .icon{
      background-color: #fefefe;
-     margin: 5px;
+     margin: 3px;
      border-radius: 16px;
      padding: 5px;
      font-size: medium;
