@@ -586,12 +586,12 @@ footer .power p{
     }
     
     .products .feature p{
-        font-size: 25px;
+        font-size: 20px;
         font-weight: bold;
     }
     
     .products .display .pro1{
-      font-size: 20px;
+      font-size: 25px;
       font-weight: bold;
      
     }
@@ -776,7 +776,8 @@ footer .power p{
 }
 
 .products .display .pro1{
-  font-size: 15px;
+  font-size: 17px;
+  font-weight: bold;
   margin: 50px;
  
 }
