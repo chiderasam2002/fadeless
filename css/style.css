@@ -10,6 +10,7 @@ body{
     font: 20px/1.5 Arial, Helve tica, san serif;
     padding: 0;
     margin: 0;
+    height: 100vh;
     background-color:rgb(241, 241, 250);
 
 }
@@ -312,15 +313,25 @@ a{
 
 
 .days{
-    width: 20%;
-    margin:20px auto ;
+    width: 20%; 
+    margin:20px auto ; 
     display: grid;
-    grid-template-columns: 200px auto;
-    text-align: justify;
+    grid-template-columns:200px  auto; 
+    /* display: flex;
+    flex-direction:row; */
     gap: 50px;
     font-weight: bold;
-
+    align-items: center;
+    
 }
+
+
+/* .p2{
+    text-align: justify;
+    justify-content: baseline;
+} */
+
+
 
 
 /* contact section starts */
@@ -330,6 +341,7 @@ a{
  margin: 50px;
  display: grid;
  grid-template-columns: 500px 500px;
+ 
  justify-content: center;
 } 
 
@@ -426,6 +438,8 @@ form .form-control{
     padding: 10px;
     margin: 20px;
     font-weight: bold;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -441,13 +455,14 @@ form .form-control input{
 
 form button{
     padding: 10px;
-    border-radius: 6px;
+    border-radius: 30px;
     border:#f4f4f4  5px solid;
     background-color: rgb(167, 167, 189);
     font-weight: bold;
     font-size: large;
     width: 20%;
     margin: 5px 0  40px 0;
+    
 }
 
 
