@@ -404,6 +404,7 @@ footer .power p{
        .newsletter{
         padding-top: 2px;
         text-align: center;
+        
       
     }
     
@@ -429,6 +430,7 @@ footer .power p{
         padding: 10px;
         margin: 20px;
         font-weight: bold;
+        display: flex;
        
     
     }
