@@ -410,11 +410,15 @@ a{
 
 
 
-/* newsletter ends */
+
+
+
+
 
 .newsletter{
     padding-top: 2px;
     text-align: center;
+    
   
 }
 
@@ -427,41 +431,70 @@ a{
 }
 
 form{
-    /* padding: 80px;
-    background-color: #ffffff; */
-
+  
+    /* width: min(400px, 100%);  */
+   margin-top: 20px;
+   margin-bottom: 50px;
+   text-align: center;
+   align-items: center;
+   gap: 10px;
     
 }
 
 
 form .form-control{
-    padding: 10px;
-    margin: 20px;
-    font-weight: bold;
+  
+
+   width: 100%; 
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   margin:20px 0 20px 0;
+    
+
+}
+form label{
+    flex-shrink: 0;
+    height: 50px;
+    width: 50px;
+    background-color: var(--accent-color);
+    fill: var(--base-color);
+    color: var(--base-color);
+    border-radius: 10px 0 0 10px;
     justify-content: center;
     align-items: center;
-
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 
 form .form-control input{
-    padding: 15px;
-    border-radius: 6px;
-    border:#f4f4f4  5px solid;
-    width: 30%;
-    
+   
+     box-sizing: border-box;
+     flex-grow: 1;
+     width: 50%;
+     min-width: 0;
+     height: 50px;
+     padding: 1em;
+     font: inherit;
+     border-radius: 0 10px 10px 0;
+     border: 2px solid var(--input-color);
+     transition: 150ms ease;
 
 }
 
 
 form button{
-    padding: 10px;
+    margin: 10px auto;
+    border: none;
     border-radius: 30px;
-    border:#f4f4f4  5px solid;
-    background-color: rgb(167, 167, 189);
-    font-weight: bold;
-    font-size: large;
-    width: 20%;
-    margin: 5px 0  40px 0;
+    padding: .3em 2em;
+    background-color:  rgb(167, 167, 189);
+    color: var(--base-color);
+    font: inherit;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 150ms ease;
     
 }
 
@@ -473,6 +506,32 @@ form button:hover{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* newsletter ends */
 
 
 
