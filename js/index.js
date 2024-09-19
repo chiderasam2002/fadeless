@@ -6,24 +6,24 @@ const email  = document.getElementById('email')
 
 
 
-form.addEventListener('submit', (e) => {
+form.addEventListener('submit',  (e) => {
   
 
   if(myName === '' || email === ''){
+   
+    
     e.preventDefault()
+  }
+
+  else{
+    alert('subscribed successfully')
+    
   }
 
  
 
 
-   button.addEventListener("click", SendAlart)
-
-
-
-   function SendAlart(){
-      alert("Subscribed successfully")
-  }
-
+  
 
 })
 
