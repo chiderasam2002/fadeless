@@ -1,30 +1,33 @@
-
-const button = document.getElementById('submit')
-const myName   = document.getElementById('name')
+const myName = document.getElementById('name')
 const email  = document.getElementById('email')
 
 
 
 
-form.addEventListener('submit',  (e) => {
+
+
+
+
+
+
+
+
+
+
+
+
+function subscribe()  {
   
 
-  if(myName === '' || email === ''){
+    const buttonElement = document.querySelector('.submit')
    
-    
-    e.preventDefault()
-  }
-
-  else{
-    alert('subscribed successfully')
-    
-  }
-
- 
 
 
-  
+    if(buttonElement.innertext === 'subscribe') {
+        buttonElement.innerHTML = 'subscribed';
+    }
+    else{
+        buttonElement.innerHTML = 'subscribe';
+    }
 
-})
-
-
+}

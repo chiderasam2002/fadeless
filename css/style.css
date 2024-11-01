@@ -242,7 +242,10 @@ a{
 .products .display .pro1{
  text-align: justify;
  margin:50px;
- 
+ border:4px rgb(85, 84, 84) solid ;
+ padding: 6px;
+ background-color: #a1a2a3;
+ color: white;
 }
 
 .products .display .pro1 img{
@@ -254,10 +257,14 @@ a{
 
 .products .display .pro1 .p2{
    margin: 5px auto;
+   background-color: #2e2f30;
+   padding:5px;
 }
 
 .products .display .pro1 .p1{
     margin: 5px auto;
+    background: #2e2f30;
+    padding:5px;
  }
 
 
@@ -509,6 +516,19 @@ form button:hover{
 }
 
 
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
 
 
 
