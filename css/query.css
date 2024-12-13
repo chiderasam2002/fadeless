@@ -179,6 +179,13 @@
 footer .power p{
    font-size: 12px;
 }
+
+
+footer{
+    position: sticky;
+    z-index: 999;
+    bottom: 0;
+}
  
  
 
@@ -485,7 +492,11 @@ footer .power p{
     }
 
 
-
+    footer{
+        position: sticky;
+        z-index: 999;
+        bottom: 0;
+    }       
      
      
     
@@ -664,7 +675,11 @@ footer .power p{
        font-size: 12px;
     }
      
-     
+    footer{
+        position: sticky;
+        z-index: 999;
+        bottom: 0;
+    }
     
     }
     

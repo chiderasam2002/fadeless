@@ -16,14 +16,16 @@ body{
 }
 
 header{
-    
+    position: sticky;
+    z-index: 999;
+    top: 0;
 }
 
 .top-header{ 
     display: flex;
-    top: 0;
+    /* top: 0;
     position: sticky;
-    z-index: 999; 
+    z-index: 999;  */
     align-items: center;
     padding: 0 30px;
     justify-content:space-between;
@@ -60,9 +62,9 @@ a{
 
 .header-nav{
     display: flex;
-    top: 0;
-    z-index:111;
-    position: sticky;
+    /* top: 0;
+    z-index:999;
+    position: sticky; */
     padding: 0px 40px;
     background-color: #fefefe;
     align-items: center;
@@ -265,6 +267,20 @@ a{
     margin: 5px auto;
     background: #2e2f30;
     padding:5px;
+ }
+
+ .products .display .pro1 button{
+    padding: 5px;
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+ }
+
+
+ .products .display .pro1 button:hover{
+    background-color: #2e2f30;
+    color: white;
  }
 
 
@@ -563,6 +579,12 @@ form button:hover{
 
 /* footer stass here */
 
+/* footer{
+    position: sticky;
+    z-index: 999;
+    bottom: 0;
+} */
+
 footer .social{ 
     display:none;
     align-items: center;
@@ -571,6 +593,7 @@ footer .social{
     height: 40px;
     color: #fefefe;
     background-color: black;
+   
 }
 
 
