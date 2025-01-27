@@ -283,10 +283,7 @@ a{
 
 
   
- /* product section end here */
-
-
- /* about starts here */
+ 
 
 .about{
   text-align: center;
@@ -305,7 +302,7 @@ a{
 .about1, .about2 {
     
     text-align: center;
-    padding: 30px 30px; 
+    padding:auto;
 }
 
 
@@ -313,6 +310,8 @@ a{
 .about1{
     background-color: #f4f4f4;
 }
+
+
 
 
 
@@ -339,26 +338,11 @@ a{
    place-content: center;
    grid-template-columns: 200px auto;
    font-weight: bold;
-    /* display: flex;
-    flex-direction:row;
-    justify-content: center;
-    gap: 50px;
-    font-weight: bold;
-    align-items: center; */
-   
+
 
 }
 
 
-/* .p2{
-    text-align: justify;
-    justify-content: baseline;
-} */
-
-
-
-
-/* contact section starts */
 
 .contact .social{
  text-align: center;
