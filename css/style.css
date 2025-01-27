@@ -16,16 +16,14 @@ body{
 }
 
 header{
-    position: sticky;
-    z-index: 999;
-    top: 0;
+   top:0;
+   position: sticky;
+   z-index: 999;
+
 }
 
 .top-header{ 
     display: flex;
-    /* top: 0;
-    position: sticky;
-    z-index: 999;  */
     align-items: center;
     padding: 0 30px;
     justify-content:space-between;
@@ -428,15 +426,7 @@ a{
 
 
 
-/* newsletter starts here */
-
-
-
-
-
-
-
-
+ /* newsletter starts her */
 
 
 
