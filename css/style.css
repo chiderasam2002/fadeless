@@ -36,7 +36,14 @@ header{
     margin: 40px;
 }
 
-.top-header .social i:hover{
+
+.top-header .social a{
+    color: #f4f4f4;
+}
+
+
+
+.top-header .social a i:hover{
     cursor: pointer;
    color: black;
    background-color: #fefefe;
@@ -572,6 +579,11 @@ footer .social i:hover{
    padding: 6px;
    border-radius: 6px; 
 } 
+
+footer .social a{
+
+    color: #f4f4f4;
+}
 
 
 footer .power p{
