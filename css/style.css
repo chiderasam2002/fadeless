@@ -136,11 +136,13 @@ a{
 }
 /* welcome styling end here */
 
+
+
+/* hero section start here */
+
 .hero{
     
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
+       
         margin:50px  auto;
         width: 100% ;
         height: 600px;
@@ -155,13 +157,13 @@ a{
           background-image: url(..//image/background\ 1.jpg);
         }
         20% {
-          background-image: url(../image/background\ 4.jpg);
+          background-image: url(../image/background\ 2.jpg);
         }
         40% {
-          background-image: url(../image/background\ 6.jpg);
+          background-image: url(../image/background\ 3.jpg);
         }
         60% {
-            background-image: url(../image/background\ 3.jpg);
+            background-image: url(../image/background\ 4.jpg);
           }
           80% {
             background-image: url(../image/background\ 5.jpg);
@@ -171,7 +173,7 @@ a{
 
 
 
-/* hero section starts here */
+/* hero section endse here */
 
 
 
