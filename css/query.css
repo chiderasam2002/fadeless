@@ -84,10 +84,9 @@
     }
     
     
-     .products .display{
+      .products .display{
          grid-template-columns: 400px 400px;
-         
-     }
+     } 
     
     
     
@@ -168,12 +167,31 @@
 
      .contact .social{
         text-align: center;
-        margin: 30px; 
         display: grid;
-        grid-template-columns: 400px 400px;
-       justify-content: center; 
+        grid-template-columns:250px 250px;
+        justify-content: center; 
         
        } 
+
+       .sample{
+        grid-template-columns: 200px 200px 200px;
+        
+        
+    }
+
+       .products .display{
+        grid-template-columns: 300px 300px;
+        align-items: center;
+        text-align: center;
+    } 
+   
+
+   
+
+
+
+
+
 
 
 }
