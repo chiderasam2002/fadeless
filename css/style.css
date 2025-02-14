@@ -238,18 +238,17 @@ a{
 .products .display{
     display:grid;
     grid-template-columns:350px 350px 350px 350px;
-    margin:auto;
     justify-content: center;
+    margin:50px;
     font-size: 20px;
     font-weight: bold;
     padding-top: 50px;
     border-bottom:5px #fefefe solid ;
-    flex-shrink: 2;
-    flex-grow: 2;
+   
 }
 
 .products .display .pro1{
- text-align: justify;
+ text-align:start;
  margin:50px;
  border:4px rgb(85, 84, 84) solid ;
  padding: 6px;
