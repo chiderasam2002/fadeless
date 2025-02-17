@@ -284,10 +284,11 @@
         .hamburger{
             display: block;
             
+            
         }
 
-        .intro .welcome {
-            font-size: 25px;
+        .intro .welcome p{
+            font-size: 15px;
             
            
         }
@@ -325,7 +326,7 @@
 }
 
 .products .display .pro1{
-  font-size: 17px;
+  font-size: 11px;
   font-weight: bold;
   margin: 50px;
  
@@ -445,8 +446,8 @@
 
 .newsletter .intro p{
    text-transform: capitalize;
-   font-weight: bold;
-   font-size: 15px;
+   font-weight:normal;
+   font-size: 12px;
    padding: 5px;
    text-align: center;
    margin-bottom: 30px;
@@ -474,7 +475,7 @@ form .form-control{
 
 form .form-control input{
    
-    width: auto;
+    width: 80%;
     box-sizing: border-box;
     min-width: 0;
     padding: 1em;
@@ -482,6 +483,7 @@ form .form-control input{
     border-radius: 0 10px 10px 0;
     border: 2px solid var(--input-color);
     transition: 150ms ease;
+    font-size: small;
     
 
 }
@@ -490,7 +492,7 @@ form .form-control input{
 
 
 form button{
-   font-size: 16px;
+   font-size: 10px;
   
 
 }
