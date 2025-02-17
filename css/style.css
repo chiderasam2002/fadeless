@@ -501,8 +501,8 @@ form button{
     border: none;
     border-radius: 30px;
     padding: .3em 2em;
-    background-color:  rgb(167, 167, 189);
-    color: var(--base-color);
+    background-color:  rgb(130, 130, 132);
+    color: #f4f4f4;
     font: inherit;
     font-weight: 600;
     text-transform: uppercase;
@@ -516,7 +516,7 @@ form button{
 }
 
 form button:hover{
-    color: #f4f4f4;
+    background-color:#2e2f30;
     cursor: pointer;
 
 }
