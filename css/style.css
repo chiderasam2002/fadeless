@@ -511,6 +511,9 @@ form button{
     
 }
 
+.input-control input:focus {
+    outline: 0;
+}
 
 form button:hover{
     color: #f4f4f4;
