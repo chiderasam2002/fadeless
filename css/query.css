@@ -486,7 +486,7 @@ form{
 }
 
 
-form .form-control{
+form .input-control{
     margin:10px auto;
     width: 100%; 
     justify-content: center;
@@ -497,7 +497,7 @@ form .form-control{
 
 }
 
-form .form-control input{
+form .input-control input{
    
     width: 80%;
     box-sizing: border-box;
@@ -508,7 +508,7 @@ form .form-control input{
     border: 2px solid var(--input-color);
     transition: 150ms ease;
     font-size: small;
-    
+    height: 40px;
 
 }
 
