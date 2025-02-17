@@ -332,6 +332,12 @@
  
 }
 
+.products .display .pro1 button{
+    font-size:11px ;
+    font-weight: bold;
+ }
+
+
 
  .products .display{
     grid-template-columns:350px;
