@@ -1,5 +1,5 @@
 const form = document.getElementById('form');
-const name = document.getElementById('name');
+const username = document.getElementById('name');
 const email = document.getElementById('email');
 
 
@@ -36,20 +36,20 @@ const isValidEmail = email => {
 
 const validateInputs = () => {
 
-    const name = name.value.trim(); 
-    const email = email.value.trim(); 
+    const nameValue = username.value.trim(); 
+    const emailValue = email.value.trim(); 
 
-if(name === ''){
-    setError(name, 'username is required');
+if(username === ''){
+    setError(username, 'username is required');
 }else{
-    setSuccess(name);
+    setSuccess(username);
 }
 
 
 
 
 if(email === ''){
-    setError(name, 'email is required');
+    setError(email, 'email is required');
 }else if (!isValidEmail(emailValue)){
     setError(email, 'provide a valid email address');
 }else{
