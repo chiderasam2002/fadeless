@@ -105,6 +105,12 @@
         
      }
 
+     .about{
+
+        margin: 150px auto;
+        
+      }
+
 
      #p1{
         font-size: 20px;
@@ -203,6 +209,12 @@
         font-size:15px ;
         
      }
+
+     .about{
+
+        margin: 100px auto;
+        
+      }
     
     
 
@@ -364,6 +376,12 @@
     
   
  }
+
+ .about{
+   
+    margin: 100px auto;
+    
+  }
 
 
  .about p{
