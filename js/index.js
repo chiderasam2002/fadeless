@@ -11,22 +11,21 @@ form.addEventListener('submit',  e => {
 
 
 const setError = (element, message) => {
-    const inputcontrol = element.parentElement;
-    const errorDisplay = inputcontrol.querySelector('error');
+    const inputControl = element.parentElement;
+    const errorDisplay = inputControl.querySelector('.error');
 
     errorDisplay.innerText = message;
-    inputcontrol.classList.add('error');
-    inputcontrol.classList.remove('success');
+    inputControl.classList.add('error');
+    inputControl.classList.remove('success')
 }
 
 const setSuccess = element => {
-    const inputcontrol = element.parentElement;
-    const errorDisplay = inputcontrol.querySelector('error');
+    const inputControl = element.parentElement;
+    const errorDisplay = inputControl.querySelector('.error');
 
     errorDisplay.innerText = '';
-    inputcontrol.classList.add('success');
-    inputcontrol.classList.remove('error');
-
+    inputControl.classList.add('success');
+    inputControl.classList.remove('error');
 };
 
 const isValidEmail = email => {
@@ -35,30 +34,20 @@ const isValidEmail = email => {
 }
 
 const validateInputs = () => {
+    const usernameValue = username.value.trim();
+    const emailValue = email.value.trim();
+    
+    if(usernameValue === '') {
+        setError(username, 'Username is required');
+    } else {
+        setSuccess(username);
+    }
 
-    const nameValue = username.value.trim(); 
-    const emailValue = email.value.trim(); 
-
-if(username === ''){
-    setError(username, 'username is required');
-}else{
-    setSuccess(username);
-}
-
-
-
-
-if(email === ''){
-    setError(email, 'email is required');
-}else if (!isValidEmail(emailValue)){
-    setError(email, 'provide a valid email address');
-}else{
-    setSuccess(email);
-}
-
-
-
+    if(emailValue === '') {
+        setError(email, 'Email is required');
+    } else if (!isValidEmail(emailValue)) {
+        setError(email, 'Provide a valid email address');
+    } else {
+        setSuccess(email);
+    }
 };
-
-
-
