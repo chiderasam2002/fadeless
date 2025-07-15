@@ -175,6 +175,13 @@
 
 @media screen and (max-width:1020px){
 
+
+
+    .header-nav .logo h1{
+        font-size: 19px;
+        height: auto;
+    }
+
     .top-header{
         display:none;
      }
